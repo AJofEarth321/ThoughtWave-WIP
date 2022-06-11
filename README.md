@@ -1,4 +1,4 @@
-ThoughtWave is a free, five-week, non-profit program that enables youth to develop their own meditative process. Curriculum covers Thought & Breath, Sound, Color, Mind/Body Connection, and Connection to Nature. There is also time for play and activities, as well as non-structured time for participants to do with as they choose. ThoughWave is developed with neutral, secular language; it has no religious or spiritual lens. It can be used within an existing after-school program or SEL(social/emotional learning) curriculum, or exist on its own as a summer or rec program. Its aim is to equip and encourage youth to better understand their own minds and selves, and through this, how they may engage their communities and the world. The program and all provided materials are completely free of cost.
+ThoughtWave is a free, five-week, non-profit program that enables youth to develop their own meditative process.
 
 
 # Getting Started with Create React App
