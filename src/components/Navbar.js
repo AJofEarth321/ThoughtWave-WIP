@@ -31,7 +31,7 @@ function Navbar() {
 
   return (
     //creates the links to site pages within the navbar container, as well as defines mobile menu behavior with onClick
-    <div>
+    <>
         <nav className='navbar'>
            <div className='navbar-container'>
                <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
@@ -65,7 +65,7 @@ function Navbar() {
                {button && <Button buttonStyle='btn--outline'>Contact Us!</Button>}
            </div>
         </nav>
-    </div>
+    </>
   )
 }
 
