@@ -1,4 +1,4 @@
-ThoughtWave is a free, five-week, non-profit program that enables youth to develop their own meditative process.
+ThoughtWave is a non-profit exploratory program that enables youth to develop their own personal meditative process.
 
 
 # Getting Started with Create React App
