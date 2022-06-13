@@ -2,7 +2,8 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button'
 import './HeroSection.css';
-// import twHead from '../images/twHead.jpg'
+// import twHead from "../../public/assets/twHead.jpg";
+// import twHead from '../images/twHead.jpg';
 
 function HeroSection() {
   return (
