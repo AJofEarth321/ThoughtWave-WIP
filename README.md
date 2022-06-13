@@ -1,5 +1,6 @@
 ThoughtWave is a non-profit exploratory program that enables youth to develop their own personal meditative process.
 
+This is a responsive front end ReactJS application. 
 
 # Getting Started with Create React App
 
