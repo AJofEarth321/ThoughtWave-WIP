@@ -9,8 +9,13 @@ function HeroSection() {
   return (
     <div className='hero-container'>
         <img src={twHead} alt="Logo" />
-        <h1>Our Thoughts Matter</h1>
-        <p>Join this amazing movement of the mind!</p>
+        <h1>An</h1>
+        <h1>Exploratory</h1>
+        <h1>Youth Meditation</h1>
+        <h1>Program</h1>
+        <br />
+        <p>Join this amazing</p>
+        <p>movement of the mind!</p>
         <div className="hero-btns">
             <Button
             className='btns'
