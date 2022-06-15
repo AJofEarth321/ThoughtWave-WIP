@@ -12,7 +12,7 @@ function HeroSection() {
         <h1>An<br />Exploratory<br />Youth Meditation<br />Program</h1>
         <br />
         <p>Join this amazing<br />movement of the mind!</p>
-        <div className="hero-btns">
+        <div className='hero-btns'>
             <Button
             className='btns'
             buttonStyle='btn--primary'

@@ -5,9 +5,9 @@ function Cards() {
   return (
     <div className='cards'>
         <h1>Take a look at the data!</h1>
-        <div className="cards__container">
-            <div className="cards__wrapper">
-                <ul className="cards__items">
+        <div className='cards-container'>
+            <div className='cards-wrapper'>
+                <ul className='cards-items'>
                    <CardItem /> 
                 </ul>
             </div>

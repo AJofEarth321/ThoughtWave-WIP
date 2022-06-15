@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 function CardItem() {
   return (
     <>
-        <li className="cards__item">
-            <Link className="cards__item__link">
-               <figure className="cards__item__pic-wrap">
-                    <img src="/" alt=""
-                    className="cards__item_img"/>
+        <li className='cards-item'>
+            <Link className='cards-item-link'>
+               <figure className='cards-item-pic-wrap'>
+                    <img src='/' alt=''
+                    className='cards-item-img'/>
                 </figure>
-                <div className='cards__item_info'>
-                    <h5 className='cards__item__text' />
+                <div className='cards-item-info'>
+                    <h5 className='cards-item-text' />
                 </div>  
             </Link>
         </li>
@@ -19,4 +19,4 @@ function CardItem() {
   );
 }
 
-export default CardItem
+export default CardItem;
