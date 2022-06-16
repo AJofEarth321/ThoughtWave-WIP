@@ -1,5 +1,6 @@
-import React from 'react'
-import CardItem from './CardItem'
+import React from 'react';
+import CardItem from './CardItem';
+import './Cards.css';
 
 function Cards() {
   return (
@@ -8,11 +9,10 @@ function Cards() {
         <div className='cards-container'>
             <div className='cards-wrapper'>
                 <ul className='cards-items'>
-                   <CardItem /> 
+                   {/* <CardItem />  */}
                 </ul>
             </div>
-        </div>
-            
+        </div>   
     </div>
   )
 }
