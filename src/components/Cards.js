@@ -5,11 +5,15 @@ import './Cards.css';
 function Cards() {
   return (
     <div className='cards'>
-        <h1>Take a look at the data!</h1>
+        <h1>Take a look!</h1>
         <div className='cards-container'>
             <div className='cards-wrapper'>
                 <ul className='cards-items'>
-                   {/* <CardItem />  */}
+                   {/* <CardItem 
+                   src='images/'
+                   text=""
+                   />  */}
+                   
                 </ul>
             </div>
         </div>   
