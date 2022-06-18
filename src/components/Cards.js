@@ -18,7 +18,7 @@ function Cards() {
                 />
                   <CardItem 
                    src={require('../images/twSmiles.jpg')}
-                   text="Mind/Body Well-being and Beyond"
+                   text="Mind/Body Well-Being and Beyond"
                   //  label='Benefits'
                    path="/impact"
                 />
