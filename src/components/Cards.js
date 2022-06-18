@@ -16,6 +16,12 @@ function Cards() {
                    label='Explore'
                    path="/impact"
                 /> 
+                     <CardItem 
+                   src={require('../images/twSmiles.jpg')}
+                   text="Mind/Body well-being, and beyond"
+                   label=''
+                   path="/impact"
+                /> 
                    
                 </ul>
             </div>
