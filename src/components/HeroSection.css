@@ -18,10 +18,12 @@ img {
 }
 
 .hero-container > h1 {
-    color: #fff;
+    color: rgb(49, 70, 100);
     font-size: 70px;
     text-align: center;
     margin-top: -130px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 1.2px;
 }
 
 .hero-container > p {
