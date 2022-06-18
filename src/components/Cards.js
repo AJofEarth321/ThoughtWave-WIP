@@ -6,22 +6,28 @@ import './Cards.css';
 function Cards() {
   return (
     <div className='cards'>
-        <h1>Check out what makes the<br /> ThoughtWave approach so powerful!</h1>
+        <h1>What Makes The<br />ThoughtWave Process So Powerful</h1>
         <div className='cards-container'>
             <div className='cards-wrapper'>
                 <ul className='cards-items'>
-                   <CardItem 
+                  <CardItem 
                    src={require('../images/twGroup.jpg')}
                    text="Why Meditation Works"
-                   label='Explore'
-                   path="/impact"
-                /> 
-                     <CardItem 
+                  //  label='Engage'
+                   path="/about"
+                />
+                  <CardItem 
                    src={require('../images/twSmiles.jpg')}
-                   text="Mind/Body well-being, and beyond"
-                   label=''
+                   text="Mind/Body Well-being and Beyond"
+                  //  label='Benefits'
                    path="/impact"
-                /> 
+                />
+                  <CardItem 
+                   src={require('../images/twField.jpg')}
+                   text="A Comprehensive Approach"
+                  //  label='Learn'
+                   path="/curriculum"
+                />
                    
                 </ul>
             </div>
