@@ -7,7 +7,7 @@ function NewsletterSection() {
     <div className='newsletter-container'>
         <section className='newsletter-subscription'>
             <p className='newsletter-subscription-heading'>
-                Sign up for our newsletter to receive program updates, news, and info
+                Sign up for our newsletter to receive program updates, news, and info!
             </p>
             <br />
             <div className='input-areas'>
@@ -18,6 +18,7 @@ function NewsletterSection() {
                     placeholder='Your Email'
                     className='footer-input'
                 />
+            <br />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
         </form>
       </div>  

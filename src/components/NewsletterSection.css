@@ -1,5 +1,5 @@
 .newsletter-container {
-    background: #fff;
+    background: rgb(95, 138, 202);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 
 .newsletter-subscription-heading {
@@ -29,6 +29,8 @@
 }
 
 .footer-input {
+    padding-top: 2%;
+    padding-bottom: 2%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,6 +39,7 @@
 }
 
 form {
+    padding-top: 25%;
     align-items: center;
     justify-content: center;
 }
