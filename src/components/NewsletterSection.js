@@ -1,13 +1,15 @@
-import React from 'react'
-import { Button } from './Button'
+import React from 'react';
+import './NewsletterSection.css';
+import { Button } from './Button';
 
 function NewsletterSection() {
   return (
-    <div className='footer-container'>
-        <section className='footer-subscription'>
-            <p className='footer-subscription-heading'>
+    <div className='newsletter-container'>
+        <section className='newsletter-subscription'>
+            <p className='newsletter-subscription-heading'>
                 Sign up for our newsletter to receive program updates, news, and info
             </p>
+            <br />
             <div className='input-areas'>
                 <form>
                     <input
