@@ -2,13 +2,12 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button'
 import './HeroSection.css';
-// import twHeadCropped from "../../public/assets/twHead.jpg";
-import twHead from '../images/twHead.jpg';
+import twBlueProfile from '../images/twBlueProfile.jpg';
 
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <img src={twHead} alt="Logo" />
+        <img src={twBlueProfile} alt="Logo" />
         <h1>An<br />Exploratory<br />Youth Meditation<br />Program</h1>
         <br />
         <p>Join this amazing<br />movement of the mind!</p>

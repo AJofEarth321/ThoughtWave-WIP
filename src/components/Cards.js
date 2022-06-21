@@ -6,7 +6,7 @@ import './Cards.css';
 function Cards() {
   return (
     <div className='cards'>
-        <h1>Take A Look At What Makes ThoughtWave So Effective</h1>
+        <h1>Take A Look At What Makes ThoughtWave So Amazing</h1>
         <div className='cards-container'>
             <div className='cards-wrapper'>
                 <ul className='cards-items'>
