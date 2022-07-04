@@ -22,7 +22,6 @@ function Footer() {
         </section>
         <section className='social-media'>
           <div className='social-media-wrap'>
-            <large className='website-rights'>ThoughtWave Ⓒ 2022</large>
             <div className='social-icons'>
               <Link className='social-icon-link facebook'
               to='/'
@@ -60,6 +59,7 @@ function Footer() {
                 <i className='fab fa-linkedin'></i>
               </Link>
             </div>
+            <large className='website-rights'>ThoughtWave Ⓒ 2022</large>
           </div>
         </section>
     </div>

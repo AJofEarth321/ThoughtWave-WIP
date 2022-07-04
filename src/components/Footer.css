@@ -53,6 +53,7 @@
 .social-icon-link {
     color: #fff;
     font-size: 24px;
+    padding: 4px;
 }
 
 .social-media {
@@ -65,6 +66,11 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    max-width: 1000px;
+    max-width: 500px;
     margin: 40px auto 0 auto;
+}
+
+.website-rights {
+    color: #fff;
+    font-size: 20px;
 }
