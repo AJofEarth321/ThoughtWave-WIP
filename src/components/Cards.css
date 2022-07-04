@@ -31,6 +31,7 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    transition: transform 500ms ease;
   }
   
   .cards-item-link {
@@ -86,8 +87,8 @@
     transition: all 0.2s linear;
   }
   
-  .cards-item-img:hover {
-    transform: scale(1.1);
+  .cards-item:hover {
+    transform: scale(1.05);
   }
   
   .cards-item-info {
