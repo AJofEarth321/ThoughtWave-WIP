@@ -1,12 +1,13 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
+// import twBlueRhomboid from '../images/twBlueRhomboid.jpg';
 // import twGroup from '../images/twGroup';
 
 function Cards() {
   return (
     <div className='cards'>
-        <h1>Take A Look At What ThoughtWave Has To Offer</h1>
+        <h1>Take a look at what ThoughtWave has to offer</h1>
         <div className='cards-container'>
             <div className='cards-wrapper'>
                 <ul className='cards-items'>
