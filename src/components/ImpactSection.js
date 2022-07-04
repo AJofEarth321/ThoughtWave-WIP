@@ -1,9 +1,10 @@
 import React from 'react';
-import '../App.css';
+import './ImpactSection.css';
+
 
 function ImpactSection() {
   return (
-    <div className='impact'>
+    <div className='impact-container'>
         <h1>IMPACT</h1>
     </div>
   )
