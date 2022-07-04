@@ -1,9 +1,9 @@
 import React from 'react';
-import '../App.css';
+import './InTheMediaSection.css';
 
 function InTheMediaSection() {
   return (
-    <div className='in-the-media'>
+    <div className='in-the-media-container'>
         <h1>IN THE MEDIA</h1>
     </div>
   )

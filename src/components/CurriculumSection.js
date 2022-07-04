@@ -1,9 +1,9 @@
 import React from 'react';
-import '../App.css';
+import './CurriculumSection.css';
 
 function CurriculumSection() {
   return (
-    <div className='curriculum'>
+    <div className='curriculum-container'>
         <h1>CURRICULUM</h1>
     </div>
   )
