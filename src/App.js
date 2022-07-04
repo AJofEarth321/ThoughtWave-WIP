@@ -8,11 +8,13 @@ import Impact from './pages/Impact';
 import Curriculum from './pages/Curriculum';
 import InTheMedia from './pages/InTheMedia';
 import ContactUs from './pages/ContactUs';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
         <Route path="/" element={<Home />}> </Route>
