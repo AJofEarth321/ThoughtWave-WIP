@@ -8,7 +8,7 @@ function ContactUsSection() {
         <h1>Contact us by filling out the information below.</h1>
         <div className='form-inputs'>
           <label htmlFor='firstname' className='form-label'>
-            First name
+            First Name
             <input
             id='firstname'
             type='text'
@@ -19,7 +19,7 @@ function ContactUsSection() {
         </div>
         <div className='form-inputs'>
           <label htmlFor='lastname' className='form-label'>
-            Last name
+            Last Name
             <input
             id='lastname'
             type='text'
@@ -30,7 +30,7 @@ function ContactUsSection() {
         </div>
         <div className='form-inputs'>
           <label htmlFor='email' className='form-label'>
-            Email
+            Your Email Address
             <input
             id='email'
             type='text'
@@ -39,6 +39,31 @@ function ContactUsSection() {
             placeholder='enter your email' />
           </label>
         </div>
+        <div className='form-inputs'>
+          <label htmlFor='state' className='form-label'>
+            Which State are you in?
+            <input
+            id='state'
+            type='text'
+            name='state' 
+            className='form-input'
+            placeholder='enter your state' />
+          </label>
+        </div>
+        <div className='form-inputs'>
+          <label htmlFor='message' className='form-label'>
+            Message
+            <input
+            id='message'
+            type='text'
+            name='message' 
+            className='form-input'
+            placeholder='enter your message' />
+          </label>
+        </div>
+        <button className='form-input-btn' type='submit'>
+          Submit
+        </button>
       </form>
     </div>
   )
