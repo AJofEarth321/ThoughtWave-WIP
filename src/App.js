@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
+import Services from './pages/Services';
 import Impact from './pages/Impact';
 import Curriculum from './pages/Curriculum';
 import InTheMedia from './pages/InTheMedia';
@@ -19,6 +20,7 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />}> </Route>
         <Route path='/about' element={<About />}> </Route>
+        <Route path='/services' element={<Services />}> </Route>
         <Route path='/impact' element={<Impact />}> </Route>
         <Route path='/curriculum' element={<Curriculum />}> </Route>
         <Route path='/in-the-media' element={<InTheMedia />}> </Route>
