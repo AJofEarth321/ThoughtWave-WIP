@@ -1,0 +1,34 @@
+.newsletter-container {
+    /* background: rgb(50, 93, 156); */
+    background-image: url('../images/twBlueRhomboid.jpg');
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 24px;
+    color: #fff
+}
+
+.newsletter-subscription > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.newsletter-subscription-heading {
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+.newsletter-subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+}
