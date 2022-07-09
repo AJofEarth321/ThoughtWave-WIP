@@ -1,4 +1,5 @@
 .contact-us-container {
+    background-image: url('../images/twBlueRhomboid.jpg');
     height:100vh;
     width: 100%;
     display: flex;
@@ -7,6 +8,12 @@
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
     object-fit: contain;
+}
+
+.form > h1 {
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: 24px;
 }
 
 .contact-us-container > h1 {
@@ -24,4 +31,18 @@
     font-size: 30px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-input-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

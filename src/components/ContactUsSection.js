@@ -3,6 +3,7 @@ import './ContactUsSection.css';
 
 function ContactUsSection() {
   return (
+    <div className='contact-us-container'>
     <div className='form-content-right'>
       <form className='form'>
         <h1>Contact us by filling out the information below.</h1>
@@ -65,6 +66,7 @@ function ContactUsSection() {
           Submit
         </button>
       </form>
+    </div>
     </div>
   )
 }
