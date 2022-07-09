@@ -47,6 +47,11 @@ function Navbar() {
                        </Link>
                    </li>
                    <li className='nav-item'>
+                       <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
+                           Services
+                       </Link>
+                   </li>
+                   <li className='nav-item'>
                        <Link to='/impact' className='nav-links' onClick={closeMobileMenu}>
                            Impact
                        </Link>
@@ -67,7 +72,7 @@ function Navbar() {
                        </Link>
                    </li>
                </ul>
-               {button && <Button buttonStyle='btn--outline'>Contact Us!</Button>}
+               {button && <Button buttonStyle='btn--outline'>Donate</Button>}
            </div>
         </nav>
     </>
