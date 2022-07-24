@@ -31,7 +31,7 @@ function ContactUsSection() {
         </div>
         <div className='form-inputs'>
           <label htmlFor='email' className='form-label'>
-            Your Email Address
+            Email Address
             <input
             id='email'
             type='text'
