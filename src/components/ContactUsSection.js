@@ -7,10 +7,10 @@ function ContactUsSection({ submitForm }) {
   const { handleChange, values, handleSubmit, errors } = useForm(validate, submitForm);
 
   return (
-    <div className='contact-us-container'>
+    <div className='form-container'>
     <div className='form-content-right'>
       <form className='form' onSubmit={handleSubmit}>
-        <h1>Let's get the conversation started!<br />Contact us by filling out the information below.</h1>
+        <h1>Contact us by filling out the information below.</h1>
         <div className='form-inputs'>
           <label htmlFor='firstname' className='form-label'>
             First Name
@@ -34,7 +34,7 @@ function ContactUsSection({ submitForm }) {
             type='text'
             name='lastname' 
             className='form-input'
-            placeholder='enter you last name'
+            placeholder='enter your last name'
             value={values.lastname}
             onChange={handleChange}
             />
