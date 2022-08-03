@@ -1,14 +1,15 @@
 import React from 'react';
 import useForm from './UseForm';
+import validate from './ValidateInfo';
 import './ContactUsSection.css'; 
 
 function ContactUsSection() {
-  const { handleChange, values } = useForm();
+  const { handleChange, values, handleSubmit, errors } = useForm(validate);
 
   return (
     <div className='contact-us-container'>
     <div className='form-content-right'>
-      <form className='form'>
+      <form className='form' onSubmit={handleSubmit}>
         <h1>Let's get the conversation started!<br />Contact us by filling out the information below.</h1>
         <div className='form-inputs'>
           <label htmlFor='firstname' className='form-label'>
@@ -22,6 +23,7 @@ function ContactUsSection() {
             value={values.firstname}
             onChange={handleChange}
             />
+            {errors.firstname && <p>{errors.firstname}</p>}
           </label>
         </div>
         <div className='form-inputs'>
@@ -36,6 +38,7 @@ function ContactUsSection() {
             value={values.lastname}
             onChange={handleChange}
             />
+            {errors.lastname && <p>{errors.lastname}</p>}
           </label>
         </div>
         <div className='form-inputs'>
@@ -50,6 +53,7 @@ function ContactUsSection() {
             value={values.email}
             onChange={handleChange}
             />
+            {errors.email && <p>{errors.email}</p>}
           </label>
         </div>
         <div className='form-inputs'>
@@ -64,6 +68,7 @@ function ContactUsSection() {
             value={values.state}
             onChange={handleChange}
             />
+            {errors.state && <p>{errors.state}</p>}
           </label>
         </div>
         <div className='form-inputs'>
@@ -74,10 +79,11 @@ function ContactUsSection() {
             type='text'
             name='message' 
             className='form-input'
-            placeholder='enter your message'
+            placeholder='enter a message (max 500 characters)'
             value={values.message}
             onChange={handleChange}
             />
+            {errors.message && <p>{errors.message}</p>}
           </label>
         </div>
         <button className='form-input-btn' type='submit'>

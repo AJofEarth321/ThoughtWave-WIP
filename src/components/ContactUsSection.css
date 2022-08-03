@@ -13,7 +13,7 @@
 .form > h1 {
     color: #fff;
     margin-top: auto;
-    margin-bottom: 24px;
+    margin-bottom: 50px;
 }
 
 .contact-us-container > h1 {
@@ -45,4 +45,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.form-inputs p {
+    color: rgb(185, 9, 9)
 }
