@@ -1,12 +1,15 @@
 import React from 'react';
+import useForm from './UseForm';
 import './ContactUsSection.css'; 
 
 function ContactUsSection() {
+  const { handleChange, values } = useForm();
+
   return (
     <div className='contact-us-container'>
     <div className='form-content-right'>
       <form className='form'>
-        <h1>Contact us by filling out the information below.</h1>
+        <h1>Let's get the conversation started!<br />Contact us by filling out the information below.</h1>
         <div className='form-inputs'>
           <label htmlFor='firstname' className='form-label'>
             First Name
@@ -15,7 +18,10 @@ function ContactUsSection() {
             type='text'
             name='firstname' 
             className='form-input'
-            placeholder='enter your first name' />
+            placeholder='enter your first name'
+            value={values.firstname}
+            onChange={handleChange}
+            />
           </label>
         </div>
         <div className='form-inputs'>
@@ -26,7 +32,10 @@ function ContactUsSection() {
             type='text'
             name='lastname' 
             className='form-input'
-            placeholder='enter you last name' />
+            placeholder='enter you last name'
+            value={values.lastname}
+            onChange={handleChange}
+            />
           </label>
         </div>
         <div className='form-inputs'>
@@ -37,7 +46,10 @@ function ContactUsSection() {
             type='text'
             name='email' 
             className='form-input'
-            placeholder='enter your email' />
+            placeholder='enter your email'
+            value={values.email}
+            onChange={handleChange}
+            />
           </label>
         </div>
         <div className='form-inputs'>
@@ -48,7 +60,10 @@ function ContactUsSection() {
             type='text'
             name='state' 
             className='form-input'
-            placeholder='enter your state' />
+            placeholder='enter your state'
+            value={values.state}
+            onChange={handleChange}
+            />
           </label>
         </div>
         <div className='form-inputs'>
@@ -59,7 +74,10 @@ function ContactUsSection() {
             type='text'
             name='message' 
             className='form-input'
-            placeholder='enter your message' />
+            placeholder='enter your message'
+            value={values.message}
+            onChange={handleChange}
+            />
           </label>
         </div>
         <button className='form-input-btn' type='submit'>
