@@ -1,7 +1,5 @@
 ThoughtWave is a responsive ReactJS application for an exploratory youth meditation program.
 
-This is a responsive front end ReactJS application. 
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
