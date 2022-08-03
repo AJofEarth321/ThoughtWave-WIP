@@ -3,8 +3,8 @@ import useForm from './UseForm';
 import validate from './ValidateInfo';
 import './ContactUsSection.css'; 
 
-function ContactUsSection() {
-  const { handleChange, values, handleSubmit, errors } = useForm(validate);
+function ContactUsSection({ submitForm }) {
+  const { handleChange, values, handleSubmit, errors } = useForm(validate, submitForm);
 
   return (
     <div className='contact-us-container'>
@@ -77,7 +77,7 @@ function ContactUsSection() {
             <input
             id='message'
             type='text'
-            name='message' 
+            name='message'
             className='form-input'
             placeholder='enter a message (max 500 characters)'
             value={values.message}
