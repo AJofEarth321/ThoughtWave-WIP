@@ -9,6 +9,7 @@ import Impact from './pages/Impact';
 import Curriculum from './pages/Curriculum';
 import InTheMedia from './pages/InTheMedia';
 import ContactUs from './pages/ContactUs';
+import Donate from './pages./Donate';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/curriculum' element={<Curriculum />}> </Route>
         <Route path='/in-the-media' element={<InTheMedia />}> </Route>
         <Route path='/contact-us' element={<ContactUs />}> </Route>
+        <Route path='/donate' element={<Donate />}> </Route>
         </Routes>
       </Router>
     </div>
