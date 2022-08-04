@@ -9,7 +9,7 @@ import Impact from './pages/Impact';
 import Curriculum from './pages/Curriculum';
 import InTheMedia from './pages/InTheMedia';
 import ContactUs from './pages/ContactUs';
-import Donate from './pages./Donate';
+import Donate from './pages/Donate';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {

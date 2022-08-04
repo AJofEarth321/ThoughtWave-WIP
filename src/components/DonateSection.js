@@ -4,7 +4,7 @@ import './DonateSection.css';
 function DonateSection() {
   return (
     <div className='donate-container'>
-        <h1>DONATE</h1>
+        <h1>DONATION FORM<br />COMING SOON</h1>
     </div>
   )
 }
