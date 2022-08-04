@@ -1,6 +1,6 @@
-import React from 'react'
-import { Button } from './Button'
-import './NewsletterSection.css'
+import React from 'react';
+import { ButtonSubscribe } from './ButtonSubscribe';
+import './NewsletterSection.css';
 
 function NewsletterSection() {
   return (
@@ -12,7 +12,7 @@ function NewsletterSection() {
           <div className='input-areas'>
             <form>
               <input type="email" name="email" placeholder='Your Email' className='footer-input'/>
-              <Button buttonStyle='btn--outline'>Subscribe</Button>
+              <ButtonSubscribe buttonStyle='btn--outline'>Subscribe</ButtonSubscribe>
             </form>
           </div>
         </section>
