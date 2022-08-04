@@ -12,7 +12,7 @@ function NewsletterSection() {
           <div className='input-areas'>
             <form>
               <input type="email" name="email" placeholder='Your Email' className='footer-input'/>
-              <ButtonSubscribe buttonStyle='btn--outline'>Subscribe</ButtonSubscribe>
+              <ButtonSubscribe buttonStyle='btn--outline'>SUBSCRIBE</ButtonSubscribe>
             </form>
           </div>
         </section>

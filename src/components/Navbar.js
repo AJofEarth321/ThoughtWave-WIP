@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
+import { ButtonDonate } from './ButtonDonate';
 import './Navbar.css';
 
 function Navbar() {
@@ -72,7 +72,7 @@ function Navbar() {
                        </Link>
                    </li>
                </ul>
-               {button && <Button buttonStyle='btn--outline'>Contact Us</Button>}
+               {button && <ButtonDonate buttonStyle='btn--outline'>DONATE</ButtonDonate>}
            </div>
         </nav>
     </>
