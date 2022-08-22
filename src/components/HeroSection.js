@@ -7,7 +7,7 @@ import twBlueProfile from '../images/twBlueProfile.jpg';
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <img src={twBlueProfile} alt="Logo" />
+        <img src={twBlueProfile} alt="A stylized profile in blue tones of a young person with a thought cloud around their head" />
         <h1>An<br />Exploratory<br />Youth Meditation<br />Program</h1>
         <br />
         <p>Join this amazing<br />movement of the mind!</p>
