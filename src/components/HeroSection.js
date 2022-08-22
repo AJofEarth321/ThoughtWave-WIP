@@ -4,7 +4,7 @@ import { Button } from './Button'
 import './HeroSection.css';
 import twBlueProfile from '../images/twBlueProfile.jpg';
 
-//this section is imported on the Home page
+//this section is for home main content and is imported on the Home page
 
 function HeroSection() {
   return (

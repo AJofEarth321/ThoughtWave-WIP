@@ -2,7 +2,7 @@ import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
 
-//this section is imported on the Home page
+//this section showcases specific cards on the home page that link to other pages, and is imported on the Home page
 
 function Cards() {
   return (

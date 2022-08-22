@@ -2,7 +2,7 @@ import React from 'react';
 import { ButtonSubscribe } from './ButtonSubscribe';
 import './NewsletterSection.css';
 
-//this section is imported on the Home page
+//this section is for newsletter sign up and is imported on the Home page
 
 function NewsletterSection() {
   return (
