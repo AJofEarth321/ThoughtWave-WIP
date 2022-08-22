@@ -1,8 +1,8 @@
 import React from 'react';
 import CardItem from './CardItem';
 import './Cards.css';
-// import twBlueRhomboid from '../images/twBlueRhomboid.jpg';
-// import twGroup from '../images/twGroup';
+
+//this section is imported on the Home page
 
 function Cards() {
   return (

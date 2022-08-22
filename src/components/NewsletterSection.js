@@ -2,6 +2,8 @@ import React from 'react';
 import { ButtonSubscribe } from './ButtonSubscribe';
 import './NewsletterSection.css';
 
+//this section is imported on the Home page
+
 function NewsletterSection() {
   return (
     <div className='newsletter-container'>
